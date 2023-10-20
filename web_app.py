@@ -25,5 +25,6 @@ def form():
         return f'You submitted the form with data: {data}'
     return render_template('form.html')
 
+print("test")
 if __name__ == '__main__':
     app.run(debug=True)
